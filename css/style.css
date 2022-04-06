@@ -1,0 +1,37 @@
+* {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+.audio_container {
+    margin: auto;
+    max-width: 475px;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.control_button {
+    width: 500px;
+    font-size: 30px;  
+    background-color: green;
+    color: white;;
+    border: 10px solid green;
+    border-radius: 5px;
+    margin: 1px;
+    padding: 5px;
+}
+
+#switch {
+    background-color: orange;
+    border: 10px solid orange;
+}
+
+#stop {
+    background-color: red;
+    border: 10px solid red;
+}

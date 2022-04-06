@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Audio Control Test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!--- HEADER --->
+    <h1>Audio Control Test</h1>
+
+    <!--- AUDIO A --->
+    <div class="audio_container">
+        
+        <div class="audio">
+            <audio id="audio_A" controls>
+                <source src="media/SM_ClipA_test.m4a" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+    
+    <!--- AUDIO B --->
+    <div class="audio_container">
+        
+        <div class="audio">
+            <audio id="audio_B" controls>
+                <source src="media/SM_ClipB_test.m4a" type="audio/mpeg" volume="0">
+            </audio>
+        </div>
+    </div>
+
+    <!--- BUTTONS --->
+        <div>
+            <button id="play-pause" class="control_button" onclick="audio_play_pause()"><b>Play</b>(Press F)</button>
+        </div>
+        <div>
+            <button id="switch" class="control_button" onclick="audio_switch()"><b>Switch</b>(Press SPACE)</button>
+        </div>
+        <div>
+            <button id="stop" class="control_button" onclick="audio_stop()"><b>Stop</b>(Press S)</button>
+        </div>
+    
+</body>
+</html>
